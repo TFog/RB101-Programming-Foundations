@@ -1,7 +1,7 @@
 greeting: "Lets see how much you owe a month, shall we?"
 loan_request: "How much do you owe?"
 loan_error: "Something was wrong with your input."
-apr_request: "what was the APR you recieved>"
+apr_request: "what is the APR?"
 apr_error: "Something was wrong with your input"
 duration_request: "How long is the loan? We'll ask for years and months seperatly"
 duration_error: "Woah now cowboy"

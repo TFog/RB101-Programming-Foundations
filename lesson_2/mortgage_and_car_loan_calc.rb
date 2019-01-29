@@ -30,7 +30,7 @@ loop do
   prompt(MESSAGES['apr_request'])
   apr = gets.chomp
   if valid_number?(apr)
-    puts month_intrest_rate = (apr.to_f / 12) / 100
+    month_intrest_rate = (apr.to_f / 12) / 100
     break
   end
   prompt(MESSAGES['apr_error'])
@@ -43,7 +43,7 @@ loop do
   p 'Months:'
   duration_months = gets.chomp
   if valid_number?(duration_years) && valid_number?(duration_months)
-    puts duration_in_months = duration_years.to_f * 12 + duration_months.to_f
+    duration_in_months = duration_years.to_f * 12 + duration_months.to_f
     break
   end
   prompt(MESSAGES['duration_error'])
