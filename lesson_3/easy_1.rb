@@ -48,8 +48,9 @@ flintstones << ["BamBam", "Pebbles"]
 p flintstones
 flintstones.flatten!
 p flintstones
-=end
+
 # question 9 turn hash into an array with only two elements.
 flintstones = { "Fred" => 0, "Wilma" => 1, "Barney" => 2, "Betty" => 3, "BamBam" => 4, "Pebbles" => 5 }
 best_friend = flintstones.assoc("Barney")
 p best_friend
+=end

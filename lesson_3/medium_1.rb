@@ -102,9 +102,9 @@ def rps(fist1, fist2)
   end
 end
 puts rps(rps(rps("rock", "paper"), rps("rock", "scissors")), "rock")
-=end
 
-# Q10 'no'
+
+# Q10 'no'. foo = 'yes' != 'no' => 'no'
 def foo(param = "no")
   "yes"
 end
@@ -113,3 +113,4 @@ def bar(param = "no")
   param == "no" ? "yes" : "no"
 end
 p bar(foo)
+=end
